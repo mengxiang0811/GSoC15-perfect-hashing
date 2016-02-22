@@ -19,3 +19,5 @@ This project comprises the following steps:
 <b>Allocated mentor</b>: Qiaobin Fu.
 
 <b>GSoC student</b>: Pranav Goswami.
+
+Citation: <a href="Implementing perfect hashing for mapping XID types to loaded principals">Implementing perfect hashing for mapping XID types to loaded principals</a>
