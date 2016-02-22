@@ -16,8 +16,6 @@ This project comprises the following steps:
 
 6. Implementing the best algorithm into Linux XIA. Notice that the new algorithm may require a change of interface, which would trigger the need for patches for all implemented principals. But given that the interface is small, and will still be small, these patches should not be a burden. The current interface used by principals includes the following functions: vxt_register_xidty(), vxt_unregister_xidty(), xt_to_vxt(), and xt_to_vxt_rcu().
 
-Allocated mentor: Qiaobin Fu.
+<b>Allocated mentor</b>: Qiaobin Fu.
 
-GSoC student: Pranav Goswami.
-
-
+<b>GSoC student</b>: Pranav Goswami.
