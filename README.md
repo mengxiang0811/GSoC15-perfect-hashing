@@ -22,4 +22,4 @@ This project comprises the following steps:
 
 Citation: <a href="Implementing perfect hashing for mapping XID types to loaded principals">Implementing perfect hashing for mapping XID types to loaded principals</a>
 
-Acknowledgement: Thanks for Yijun Zhou's work on implementing the Dynamic Perfect Hashing scheme, and Rishi Shah's work on implementing the d-left hashing algorithm.
+<b>Acknowledgement</b>: Thanks for Yijun Zhou's work on implementing the Dynamic Perfect Hashing scheme, and Rishi Shah's work on implementing the d-left hashing algorithm.
