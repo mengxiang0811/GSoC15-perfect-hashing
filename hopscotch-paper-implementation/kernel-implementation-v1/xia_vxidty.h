@@ -93,7 +93,7 @@ static inline int xt_to_vxt_rcu(xid_type_t ty)
 
 		for(i = 0; i < HOP_RANGE; ++i) {
 
-			if((start_bucket->hop_info & (1 << i)) && likely(ty == (check_bucket->xid_type))) {
+			if(likely(ty == (check_bucket->xid_type))) {
 				return check_entry->index;
 			}
 
