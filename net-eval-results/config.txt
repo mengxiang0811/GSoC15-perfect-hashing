@@ -19,3 +19,4 @@ L2 cache:              256K
 L3 cache:              6144K
 L4 cache:              131072K
 NUMA node0 CPU(s):     0-3
+RAM:                   4GB
