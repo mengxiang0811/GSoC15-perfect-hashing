@@ -27,7 +27,7 @@
 struct xip_vxt_entry {
 	xid_type_t	xid_type;
 	int		index;
-	
+
 	__u32 hop_info;
 };
 
@@ -93,11 +93,7 @@ static inline int xt_to_vxt_rcu(xid_type_t ty)
 
 		for(i = 0; i < HOP_RANGE; ++i) {
 
-			if(likely(ty == (check_entry->xid_type))) {
-				pr_info("The hash_index is %d\n", hash_index);
-				pr_info("XID Type : 0x%x\n", __be32_to_cpu(check_entry->xid_type));
-				pr_info("Index : %d\n", check_entry->index);
-				pr_info("Hop Info : %u\n", check_entry->hop_info);
+			if((start_bucket->hop_info & (1 << i)) && likely(ty == (check_bucket->xid_type))) {
 				return check_entry->index;
 			}
 
